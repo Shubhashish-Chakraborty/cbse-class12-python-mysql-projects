@@ -1,0 +1,322 @@
+
+======== STUDENT RESULT MANAGEMENT SYSTEM ========
+  1. Add student with marks
+  2. Show report card of a student
+  3. Class result sheet (rank-wise)
+  4. Update marks of a subject
+  5. Find the topper
+  6. Section-wise performance
+  7. List of failed students
+  8. Subject-wise average / highest / lowest
+  9. Delete a student
+  0. Exit
+==================================================
+Enter your choice : 1
+Roll number : 11
+Name        : Kunal Verma
+Section     : A
+Marks in Physics (0-100) : 85
+Marks in Chemistry (0-100) : 80
+Marks in Maths (0-100) : 90
+Marks in English (0-100) : 72
+Marks in Computer Science (0-100) : 95
+Student record added successfully.
+
+======== STUDENT RESULT MANAGEMENT SYSTEM ========
+  1. Add student with marks
+  2. Show report card of a student
+  3. Class result sheet (rank-wise)
+  4. Update marks of a subject
+  5. Find the topper
+  6. Section-wise performance
+  7. List of failed students
+  8. Subject-wise average / highest / lowest
+  9. Delete a student
+  0. Exit
+==================================================
+Enter your choice : 2
+Enter roll number : 11
+
+============ REPORT CARD ============
+Roll No : 11    Section : A
+Name    : Kunal Verma
+-------------------------------------
+Physics          : 85
+Chemistry        : 80
+Maths            : 90
+English          : 72
+Computer Science : 95
+-------------------------------------
+Total            : 422 / 500
+Percentage       : 84.40 %
+Result           : PASS    Grade : A
+=====================================
+
+======== STUDENT RESULT MANAGEMENT SYSTEM ========
+  1. Add student with marks
+  2. Show report card of a student
+  3. Class result sheet (rank-wise)
+  4. Update marks of a subject
+  5. Find the topper
+  6. Section-wise performance
+  7. List of failed students
+  8. Subject-wise average / highest / lowest
+  9. Delete a student
+  0. Exit
+==================================================
+Enter your choice : 2
+Enter roll number : 7
+
+============ REPORT CARD ============
+Roll No : 7    Section : B
+Name    : Gaurav Pandey
+-------------------------------------
+Physics          : 40
+Chemistry        : 38
+Maths            : 35
+English          : 55
+Computer Science : 62
+-------------------------------------
+Total            : 230 / 500
+Percentage       : 46.00 %
+Result           : PASS    Grade : C
+=====================================
+
+======== STUDENT RESULT MANAGEMENT SYSTEM ========
+  1. Add student with marks
+  2. Show report card of a student
+  3. Class result sheet (rank-wise)
+  4. Update marks of a subject
+  5. Find the topper
+  6. Section-wise performance
+  7. List of failed students
+  8. Subject-wise average / highest / lowest
+  9. Delete a student
+  0. Exit
+==================================================
+Enter your choice : 3
++------+------+---------------+-----+-------+---------+
+| Rank | Roll | Name          | Sec | Total | Percent |
++------+------+---------------+-----+-------+---------+
+| 1    | 6    | Fatima Sheikh | B   | 465   | 93.00   |
+| 2    | 2    | Bhavna Gupta  | A   | 456   | 91.20   |
+| 3    | 10   | Jhanvi Soni   | B   | 433   | 86.60   |
+| 4    | 11   | Kunal Verma   | A   | 422   | 84.40   |
+| 5    | 1    | Aditya Singh  | A   | 421   | 84.20   |
+| 6    | 8    | Harleen Kaur  | B   | 385   | 77.00   |
+| 7    | 4    | Divya Thakur  | A   | 381   | 76.20   |
+| 8    | 3    | Chirag Jain   | A   | 307   | 61.40   |
+| 9    | 5    | Eshaan Malik  | A   | 253   | 50.60   |
+| 10   | 9    | Ishaan Dubey  | B   | 241   | 48.20   |
+| 11   | 7    | Gaurav Pandey | B   | 230   | 46.00   |
++------+------+---------------+-----+-------+---------+
+
+======== STUDENT RESULT MANAGEMENT SYSTEM ========
+  1. Add student with marks
+  2. Show report card of a student
+  3. Class result sheet (rank-wise)
+  4. Update marks of a subject
+  5. Find the topper
+  6. Section-wise performance
+  7. List of failed students
+  8. Subject-wise average / highest / lowest
+  9. Delete a student
+  0. Exit
+==================================================
+Enter your choice : 4
+Roll number : 7
+1.Physics  2.Chemistry  3.Maths  4.English  5.Computer Science
+Choose subject : 3
+Marks in this subject (0-100) : 66
+Marks updated successfully.
+
+======== STUDENT RESULT MANAGEMENT SYSTEM ========
+  1. Add student with marks
+  2. Show report card of a student
+  3. Class result sheet (rank-wise)
+  4. Update marks of a subject
+  5. Find the topper
+  6. Section-wise performance
+  7. List of failed students
+  8. Subject-wise average / highest / lowest
+  9. Delete a student
+  0. Exit
+==================================================
+Enter your choice : 4
+Roll number : 7
+1.Physics  2.Chemistry  3.Maths  4.English  5.Computer Science
+Choose subject : 9
+Invalid subject.
+
+======== STUDENT RESULT MANAGEMENT SYSTEM ========
+  1. Add student with marks
+  2. Show report card of a student
+  3. Class result sheet (rank-wise)
+  4. Update marks of a subject
+  5. Find the topper
+  6. Section-wise performance
+  7. List of failed students
+  8. Subject-wise average / highest / lowest
+  9. Delete a student
+  0. Exit
+==================================================
+Enter your choice : 6
+Show only sections with average percentage >= (0 for all) : 0
++---------+----------+-------------+---------------+
+| Section | Students | Avg Percent | Highest Total |
++---------+----------+-------------+---------------+
+| A       | 6        | 74.67       | 456           |
+| B       | 5        | 71.40       | 465           |
++---------+----------+-------------+---------------+
+
+======== STUDENT RESULT MANAGEMENT SYSTEM ========
+  1. Add student with marks
+  2. Show report card of a student
+  3. Class result sheet (rank-wise)
+  4. Update marks of a subject
+  5. Find the topper
+  6. Section-wise performance
+  7. List of failed students
+  8. Subject-wise average / highest / lowest
+  9. Delete a student
+  0. Exit
+==================================================
+Enter your choice : 6
+Show only sections with average percentage >= (0 for all) : 72
++---------+----------+-------------+---------------+
+| Section | Students | Avg Percent | Highest Total |
++---------+----------+-------------+---------------+
+| A       | 6        | 74.67       | 456           |
++---------+----------+-------------+---------------+
+
+======== STUDENT RESULT MANAGEMENT SYSTEM ========
+  1. Add student with marks
+  2. Show report card of a student
+  3. Class result sheet (rank-wise)
+  4. Update marks of a subject
+  5. Find the topper
+  6. Section-wise performance
+  7. List of failed students
+  8. Subject-wise average / highest / lowest
+  9. Delete a student
+  0. Exit
+==================================================
+Enter your choice : 7
++------+--------------+-----+------+-------+-----+----+
+| Roll | Name         | Phy | Chem | Maths | Eng | CS |
++------+--------------+-----+------+-------+-----+----+
+| 5    | Eshaan Malik | 30  | 45   | 52    | 60  | 66 |
+| 9    | Ishaan Dubey | 28  | 50   | 44    | 61  | 58 |
++------+--------------+-----+------+-------+-----+----+
+
+======== STUDENT RESULT MANAGEMENT SYSTEM ========
+  1. Add student with marks
+  2. Show report card of a student
+  3. Class result sheet (rank-wise)
+  4. Update marks of a subject
+  5. Find the topper
+  6. Section-wise performance
+  7. List of failed students
+  8. Subject-wise average / highest / lowest
+  9. Delete a student
+  0. Exit
+==================================================
+Enter your choice : 8
++------------------+---------+---------+--------+
+| Subject          | Average | Highest | Lowest |
++------------------+---------+---------+--------+
+| Physics          | 65.64   | 92      | 28     |
+| Chemistry        | 68.73   | 90      | 38     |
+| Maths            | 74.27   | 97      | 44     |
+| English          | 74.18   | 91      | 55     |
+| Computer Science | 83.09   | 99      | 58     |
++------------------+---------+---------+--------+
+
+======== STUDENT RESULT MANAGEMENT SYSTEM ========
+  1. Add student with marks
+  2. Show report card of a student
+  3. Class result sheet (rank-wise)
+  4. Update marks of a subject
+  5. Find the topper
+  6. Section-wise performance
+  7. List of failed students
+  8. Subject-wise average / highest / lowest
+  9. Delete a student
+  0. Exit
+==================================================
+Enter your choice : 5
+School Topper : Fatima Sheikh (Section B) with 465 / 500 marks
+
+======== STUDENT RESULT MANAGEMENT SYSTEM ========
+  1. Add student with marks
+  2. Show report card of a student
+  3. Class result sheet (rank-wise)
+  4. Update marks of a subject
+  5. Find the topper
+  6. Section-wise performance
+  7. List of failed students
+  8. Subject-wise average / highest / lowest
+  9. Delete a student
+  0. Exit
+==================================================
+Enter your choice : 9
+Roll number to delete : 10
+Student record deleted.
+
+======== STUDENT RESULT MANAGEMENT SYSTEM ========
+  1. Add student with marks
+  2. Show report card of a student
+  3. Class result sheet (rank-wise)
+  4. Update marks of a subject
+  5. Find the topper
+  6. Section-wise performance
+  7. List of failed students
+  8. Subject-wise average / highest / lowest
+  9. Delete a student
+  0. Exit
+==================================================
+Enter your choice : 3
++------+------+---------------+-----+-------+---------+
+| Rank | Roll | Name          | Sec | Total | Percent |
++------+------+---------------+-----+-------+---------+
+| 1    | 6    | Fatima Sheikh | B   | 465   | 93.00   |
+| 2    | 2    | Bhavna Gupta  | A   | 456   | 91.20   |
+| 3    | 11   | Kunal Verma   | A   | 422   | 84.40   |
+| 4    | 1    | Aditya Singh  | A   | 421   | 84.20   |
+| 5    | 8    | Harleen Kaur  | B   | 385   | 77.00   |
+| 6    | 4    | Divya Thakur  | A   | 381   | 76.20   |
+| 7    | 3    | Chirag Jain   | A   | 307   | 61.40   |
+| 8    | 7    | Gaurav Pandey | B   | 261   | 52.20   |
+| 9    | 5    | Eshaan Malik  | A   | 253   | 50.60   |
+| 10   | 9    | Ishaan Dubey  | B   | 241   | 48.20   |
++------+------+---------------+-----+-------+---------+
+
+======== STUDENT RESULT MANAGEMENT SYSTEM ========
+  1. Add student with marks
+  2. Show report card of a student
+  3. Class result sheet (rank-wise)
+  4. Update marks of a subject
+  5. Find the topper
+  6. Section-wise performance
+  7. List of failed students
+  8. Subject-wise average / highest / lowest
+  9. Delete a student
+  0. Exit
+==================================================
+Enter your choice : 10
+Invalid choice. Please try again.
+
+======== STUDENT RESULT MANAGEMENT SYSTEM ========
+  1. Add student with marks
+  2. Show report card of a student
+  3. Class result sheet (rank-wise)
+  4. Update marks of a subject
+  5. Find the topper
+  6. Section-wise performance
+  7. List of failed students
+  8. Subject-wise average / highest / lowest
+  9. Delete a student
+  0. Exit
+==================================================
+Enter your choice : 0
+Thank you for using the Result Management System!

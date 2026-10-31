@@ -1,0 +1,296 @@
+
+======== CINEMA TICKET BOOKING SYSTEM ========
+ 1. Now showing (list of movies)
+ 2. Search movies by language
+ 3. Show timings
+ 4. Book tickets
+ 5. Cancel a booking
+ 6. View my bookings
+ 7. Revenue report (movie-wise)
+ 8. Housefull shows
+ 9. Add a new show (admin)
+ 0. Exit
+==============================================
+Enter your choice : 1
++----+----------------+----------+----------------+--------------+
+| ID | Movie          | Language | Duration (min) | Ticket (Rs.) |
++----+----------------+----------+----------------+--------------+
+| 1  | Galaxy Rangers | English  | 142            | 250          |
+| 2  | Monsoon Melody | Hindi    | 128            | 180          |
+| 3  | The Last Train | Hindi    | 135            | 200          |
+| 4  | Laughter Club  | Hindi    | 118            | 150          |
+| 5  | Cosmic Kids    | English  | 98             | 120          |
++----+----------------+----------+----------------+--------------+
+
+======== CINEMA TICKET BOOKING SYSTEM ========
+ 1. Now showing (list of movies)
+ 2. Search movies by language
+ 3. Show timings
+ 4. Book tickets
+ 5. Cancel a booking
+ 6. View my bookings
+ 7. Revenue report (movie-wise)
+ 8. Housefull shows
+ 9. Add a new show (admin)
+ 0. Exit
+==============================================
+Enter your choice : 2
+Enter language : English
++----+----------------+----------------+--------------+
+| ID | Movie          | Duration (min) | Ticket (Rs.) |
++----+----------------+----------------+--------------+
+| 1  | Galaxy Rangers | 142            | 250          |
+| 5  | Cosmic Kids    | 98             | 120          |
++----+----------------+----------------+--------------+
+
+======== CINEMA TICKET BOOKING SYSTEM ========
+ 1. Now showing (list of movies)
+ 2. Search movies by language
+ 3. Show timings
+ 4. Book tickets
+ 5. Cancel a booking
+ 6. View my bookings
+ 7. Revenue report (movie-wise)
+ 8. Housefull shows
+ 9. Add a new show (admin)
+ 0. Exit
+==============================================
+Enter your choice : 3
++---------+----------------+------------+----------+------------+
+| Show ID | Movie          | Date       | Time     | Seats Left |
++---------+----------------+------------+----------+------------+
+| 101     | Galaxy Rangers | 2026-11-01 | 10:00 AM | 48         |
+| 102     | Galaxy Rangers | 2026-11-01 | 06:00 PM | 40         |
+| 103     | Monsoon Melody | 2026-11-01 | 01:00 PM | 56         |
+| 104     | The Last Train | 2026-11-01 | 09:00 PM | 5          |
+| 105     | Laughter Club  | 2026-11-02 | 04:00 PM | 45         |
+| 106     | Cosmic Kids    | 2026-11-02 | 11:00 AM | 0          |
+| 107     | Monsoon Melody | 2026-11-02 | 07:00 PM | 55         |
++---------+----------------+------------+----------+------------+
+
+======== CINEMA TICKET BOOKING SYSTEM ========
+ 1. Now showing (list of movies)
+ 2. Search movies by language
+ 3. Show timings
+ 4. Book tickets
+ 5. Cancel a booking
+ 6. View my bookings
+ 7. Revenue report (movie-wise)
+ 8. Housefull shows
+ 9. Add a new show (admin)
+ 0. Exit
+==============================================
+Enter your choice : 4
+Show ID                 : 106
+Sorry, this show is HOUSEFULL.
+
+======== CINEMA TICKET BOOKING SYSTEM ========
+ 1. Now showing (list of movies)
+ 2. Search movies by language
+ 3. Show timings
+ 4. Book tickets
+ 5. Cancel a booking
+ 6. View my bookings
+ 7. Revenue report (movie-wise)
+ 8. Housefull shows
+ 9. Add a new show (admin)
+ 0. Exit
+==============================================
+Enter your choice : 4
+Show ID                 : 104
+Customer name           : Kabir Anand
+Number of tickets (max 6) : 5
+
+************ E-TICKET ************
+Booking ID : 4
+Name       : Kabir Anand
+Movie      : The Last Train
+Date/Time  : 2026-11-01 09:00 PM
+Tickets    : 5 x Rs. 200
+AMOUNT PAID: Rs. 1000
+**********************************
+
+======== CINEMA TICKET BOOKING SYSTEM ========
+ 1. Now showing (list of movies)
+ 2. Search movies by language
+ 3. Show timings
+ 4. Book tickets
+ 5. Cancel a booking
+ 6. View my bookings
+ 7. Revenue report (movie-wise)
+ 8. Housefull shows
+ 9. Add a new show (admin)
+ 0. Exit
+==============================================
+Enter your choice : 4
+Show ID                 : 105
+Customer name           : Kabir Anand
+Number of tickets (max 6) : 2
+
+************ E-TICKET ************
+Booking ID : 5
+Name       : Kabir Anand
+Movie      : Laughter Club
+Date/Time  : 2026-11-02 04:00 PM
+Tickets    : 2 x Rs. 150
+AMOUNT PAID: Rs. 300
+**********************************
+
+======== CINEMA TICKET BOOKING SYSTEM ========
+ 1. Now showing (list of movies)
+ 2. Search movies by language
+ 3. Show timings
+ 4. Book tickets
+ 5. Cancel a booking
+ 6. View my bookings
+ 7. Revenue report (movie-wise)
+ 8. Housefull shows
+ 9. Add a new show (admin)
+ 0. Exit
+==============================================
+Enter your choice : 4
+Show ID                 : 105
+Customer name           : Kabir Anand
+Number of tickets (max 6) : 9
+You can book between 1 and 6 tickets at a time.
+
+======== CINEMA TICKET BOOKING SYSTEM ========
+ 1. Now showing (list of movies)
+ 2. Search movies by language
+ 3. Show timings
+ 4. Book tickets
+ 5. Cancel a booking
+ 6. View my bookings
+ 7. Revenue report (movie-wise)
+ 8. Housefull shows
+ 9. Add a new show (admin)
+ 0. Exit
+==============================================
+Enter your choice : 6
+Enter your name : Kabir
++---------+----------------+------------+----------+-------+--------+
+| Booking | Movie          | Date       | Time     | Seats | Amount |
++---------+----------------+------------+----------+-------+--------+
+| 4       | The Last Train | 2026-11-01 | 09:00 PM | 5     | 1000   |
+| 5       | Laughter Club  | 2026-11-02 | 04:00 PM | 2     | 300    |
++---------+----------------+------------+----------+-------+--------+
+
+======== CINEMA TICKET BOOKING SYSTEM ========
+ 1. Now showing (list of movies)
+ 2. Search movies by language
+ 3. Show timings
+ 4. Book tickets
+ 5. Cancel a booking
+ 6. View my bookings
+ 7. Revenue report (movie-wise)
+ 8. Housefull shows
+ 9. Add a new show (admin)
+ 0. Exit
+==============================================
+Enter your choice : 5
+Booking ID to cancel : 5
+Booking cancelled. Refund amount : Rs. 240.00 (20% deducted)
+
+======== CINEMA TICKET BOOKING SYSTEM ========
+ 1. Now showing (list of movies)
+ 2. Search movies by language
+ 3. Show timings
+ 4. Book tickets
+ 5. Cancel a booking
+ 6. View my bookings
+ 7. Revenue report (movie-wise)
+ 8. Housefull shows
+ 9. Add a new show (admin)
+ 0. Exit
+==============================================
+Enter your choice : 7
++----------------+----------+--------------+---------------+
+| Movie          | Bookings | Tickets Sold | Revenue (Rs.) |
++----------------+----------+--------------+---------------+
+| The Last Train | 2        | 8            | 1600          |
+| Monsoon Melody | 1        | 4            | 720           |
+| Galaxy Rangers | 1        | 2            | 500           |
++----------------+----------+--------------+---------------+
+Total box-office collection : Rs. 2820
+
+======== CINEMA TICKET BOOKING SYSTEM ========
+ 1. Now showing (list of movies)
+ 2. Search movies by language
+ 3. Show timings
+ 4. Book tickets
+ 5. Cancel a booking
+ 6. View my bookings
+ 7. Revenue report (movie-wise)
+ 8. Housefull shows
+ 9. Add a new show (admin)
+ 0. Exit
+==============================================
+Enter your choice : 8
+Housefull shows:
++---------+----------------+------------+----------+
+| Show ID | Movie          | Date       | Time     |
++---------+----------------+------------+----------+
+| 104     | The Last Train | 2026-11-01 | 09:00 PM |
+| 106     | Cosmic Kids    | 2026-11-02 | 11:00 AM |
++---------+----------------+------------+----------+
+
+======== CINEMA TICKET BOOKING SYSTEM ========
+ 1. Now showing (list of movies)
+ 2. Search movies by language
+ 3. Show timings
+ 4. Book tickets
+ 5. Cancel a booking
+ 6. View my bookings
+ 7. Revenue report (movie-wise)
+ 8. Housefull shows
+ 9. Add a new show (admin)
+ 0. Exit
+==============================================
+Enter your choice : 9
+New Show ID         : 108
+Movie ID            : 1
+Date (YYYY-MM-DD)    : 2026-11-03
+Time (e.g. 03:00 PM) : 06:30 PM
+Total seats         : 60
+New show added.
+
+======== CINEMA TICKET BOOKING SYSTEM ========
+ 1. Now showing (list of movies)
+ 2. Search movies by language
+ 3. Show timings
+ 4. Book tickets
+ 5. Cancel a booking
+ 6. View my bookings
+ 7. Revenue report (movie-wise)
+ 8. Housefull shows
+ 9. Add a new show (admin)
+ 0. Exit
+==============================================
+Enter your choice : 3
++---------+----------------+------------+----------+------------+
+| Show ID | Movie          | Date       | Time     | Seats Left |
++---------+----------------+------------+----------+------------+
+| 101     | Galaxy Rangers | 2026-11-01 | 10:00 AM | 48         |
+| 102     | Galaxy Rangers | 2026-11-01 | 06:00 PM | 40         |
+| 103     | Monsoon Melody | 2026-11-01 | 01:00 PM | 56         |
+| 104     | The Last Train | 2026-11-01 | 09:00 PM | 0          |
+| 105     | Laughter Club  | 2026-11-02 | 04:00 PM | 45         |
+| 106     | Cosmic Kids    | 2026-11-02 | 11:00 AM | 0          |
+| 107     | Monsoon Melody | 2026-11-02 | 07:00 PM | 55         |
+| 108     | Galaxy Rangers | 2026-11-03 | 06:30 PM | 60         |
++---------+----------------+------------+----------+------------+
+
+======== CINEMA TICKET BOOKING SYSTEM ========
+ 1. Now showing (list of movies)
+ 2. Search movies by language
+ 3. Show timings
+ 4. Book tickets
+ 5. Cancel a booking
+ 6. View my bookings
+ 7. Revenue report (movie-wise)
+ 8. Housefull shows
+ 9. Add a new show (admin)
+ 0. Exit
+==============================================
+Enter your choice : 0
+Thank you! Enjoy the movie!

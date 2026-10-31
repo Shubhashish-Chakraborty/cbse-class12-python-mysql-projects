@@ -1,0 +1,243 @@
+
+=========== HOTEL MANAGEMENT SYSTEM ===========
+ 1. Add new customer
+ 2. View all rooms
+ 3. View available rooms
+ 4. Check-in  (allot a room)
+ 5. Check-out (generate bill)
+ 6. View current guests
+ 7. Search customer by name
+ 8. Booking history of a customer
+ 9. Revenue report (room-type wise)
+ 0. Exit
+===============================================
+Enter your choice : 2
++---------+----------+-------------+-----------+
+| Room No | Type     | Price/Night | Status    |
++---------+----------+-------------+-----------+
+| 101     | Standard | 1500        | Available |
+| 102     | Standard | 1500        | Available |
+| 103     | Standard | 1500        | Available |
+| 201     | Deluxe   | 2500        | Available |
+| 202     | Deluxe   | 2500        | Occupied  |
+| 203     | Deluxe   | 2500        | Available |
+| 301     | Suite    | 4500        | Available |
+| 302     | Suite    | 4500        | Available |
++---------+----------+-------------+-----------+
+
+=========== HOTEL MANAGEMENT SYSTEM ===========
+ 1. Add new customer
+ 2. View all rooms
+ 3. View available rooms
+ 4. Check-in  (allot a room)
+ 5. Check-out (generate bill)
+ 6. View current guests
+ 7. Search customer by name
+ 8. Booking history of a customer
+ 9. Revenue report (room-type wise)
+ 0. Exit
+===============================================
+Enter your choice : 1
+Customer name   : Ananya Rao
+Phone number    : 9811122233
+City            : Pune
+Customer added successfully. Customer ID = 6
+
+=========== HOTEL MANAGEMENT SYSTEM ===========
+ 1. Add new customer
+ 2. View all rooms
+ 3. View available rooms
+ 4. Check-in  (allot a room)
+ 5. Check-out (generate bill)
+ 6. View current guests
+ 7. Search customer by name
+ 8. Booking history of a customer
+ 9. Revenue report (room-type wise)
+ 0. Exit
+===============================================
+Enter your choice : 4
+Customer ID            : 6
+Room number            : 201
+Check-in date (YYYY-MM-DD): 2026-10-30
+Check-in done. Room 201 allotted to Ananya Rao
+
+=========== HOTEL MANAGEMENT SYSTEM ===========
+ 1. Add new customer
+ 2. View all rooms
+ 3. View available rooms
+ 4. Check-in  (allot a room)
+ 5. Check-out (generate bill)
+ 6. View current guests
+ 7. Search customer by name
+ 8. Booking history of a customer
+ 9. Revenue report (room-type wise)
+ 0. Exit
+===============================================
+Enter your choice : 4
+Customer ID            : 6
+Room number            : 202
+Sorry, room 202 is already occupied.
+
+=========== HOTEL MANAGEMENT SYSTEM ===========
+ 1. Add new customer
+ 2. View all rooms
+ 3. View available rooms
+ 4. Check-in  (allot a room)
+ 5. Check-out (generate bill)
+ 6. View current guests
+ 7. Search customer by name
+ 8. Booking history of a customer
+ 9. Revenue report (room-type wise)
+ 0. Exit
+===============================================
+Enter your choice : 3
++---------+----------+-------------+
+| Room No | Type     | Price/Night |
++---------+----------+-------------+
+| 101     | Standard | 1500        |
+| 102     | Standard | 1500        |
+| 103     | Standard | 1500        |
+| 203     | Deluxe   | 2500        |
+| 301     | Suite    | 4500        |
+| 302     | Suite    | 4500        |
++---------+----------+-------------+
+
+=========== HOTEL MANAGEMENT SYSTEM ===========
+ 1. Add new customer
+ 2. View all rooms
+ 3. View available rooms
+ 4. Check-in  (allot a room)
+ 5. Check-out (generate bill)
+ 6. View current guests
+ 7. Search customer by name
+ 8. Booking history of a customer
+ 9. Revenue report (room-type wise)
+ 0. Exit
+===============================================
+Enter your choice : 6
++---------+-------------+------------+--------+------------+
+| Room No | Guest       | Phone      | Type   | Check-in   |
++---------+-------------+------------+--------+------------+
+| 201     | Ananya Rao  | 9811122233 | Deluxe | 2026-10-30 |
+| 202     | Simran Kaur | 9876503456 | Deluxe | 2026-10-28 |
++---------+-------------+------------+--------+------------+
+
+=========== HOTEL MANAGEMENT SYSTEM ===========
+ 1. Add new customer
+ 2. View all rooms
+ 3. View available rooms
+ 4. Check-in  (allot a room)
+ 5. Check-out (generate bill)
+ 6. View current guests
+ 7. Search customer by name
+ 8. Booking history of a customer
+ 9. Revenue report (room-type wise)
+ 0. Exit
+===============================================
+Enter your choice : 5
+Room number to check-out: 201
+Check-out date (YYYY-MM-DD): 2026-11-02
+
+========== HOTEL BILL ==========
+Guest         : Ananya Rao
+Room No       : 201
+Check-in      : 2026-10-30
+Check-out     : 2026-11-02
+Nights        : 3 x Rs. 2500
+Room charges  : Rs. 7500.00
+GST (12%)     : Rs. 900.00
+TOTAL BILL    : Rs. 8400.00
+================================
+
+=========== HOTEL MANAGEMENT SYSTEM ===========
+ 1. Add new customer
+ 2. View all rooms
+ 3. View available rooms
+ 4. Check-in  (allot a room)
+ 5. Check-out (generate bill)
+ 6. View current guests
+ 7. Search customer by name
+ 8. Booking history of a customer
+ 9. Revenue report (room-type wise)
+ 0. Exit
+===============================================
+Enter your choice : 5
+Room number to check-out: 103
+This room has no active booking.
+
+=========== HOTEL MANAGEMENT SYSTEM ===========
+ 1. Add new customer
+ 2. View all rooms
+ 3. View available rooms
+ 4. Check-in  (allot a room)
+ 5. Check-out (generate bill)
+ 6. View current guests
+ 7. Search customer by name
+ 8. Booking history of a customer
+ 9. Revenue report (room-type wise)
+ 0. Exit
+===============================================
+Enter your choice : 7
+Enter name (or part of name): rao
++---------+------------+------------+------+
+| Cust ID | Name       | Phone      | City |
++---------+------------+------------+------+
+| 6       | Ananya Rao | 9811122233 | Pune |
++---------+------------+------------+------+
+
+=========== HOTEL MANAGEMENT SYSTEM ===========
+ 1. Add new customer
+ 2. View all rooms
+ 3. View available rooms
+ 4. Check-in  (allot a room)
+ 5. Check-out (generate bill)
+ 6. View current guests
+ 7. Search customer by name
+ 8. Booking history of a customer
+ 9. Revenue report (room-type wise)
+ 0. Exit
+===============================================
+Enter your choice : 8
+Customer ID: 6
++---------+------+--------+------------+------------+------------+
+| Booking | Room | Type   | Check-in   | Check-out  | Bill (Rs.) |
++---------+------+--------+------------+------------+------------+
+| 5       | 201  | Deluxe | 2026-10-30 | 2026-11-02 | 8400.00    |
++---------+------+--------+------------+------------+------------+
+
+=========== HOTEL MANAGEMENT SYSTEM ===========
+ 1. Add new customer
+ 2. View all rooms
+ 3. View available rooms
+ 4. Check-in  (allot a room)
+ 5. Check-out (generate bill)
+ 6. View current guests
+ 7. Search customer by name
+ 8. Booking history of a customer
+ 9. Revenue report (room-type wise)
+ 0. Exit
+===============================================
+Enter your choice : 9
++-----------+-------+--------------+---------------+
+| Room Type | Stays | Total Nights | Revenue (Rs.) |
++-----------+-------+--------------+---------------+
+| Deluxe    | 2     | 6            | 16800.00      |
+| Standard  | 1     | 2            | 3360.00       |
+| Suite     | 1     | 2            | 10080.00      |
++-----------+-------+--------------+---------------+
+Total revenue so far : Rs. 30240.00
+
+=========== HOTEL MANAGEMENT SYSTEM ===========
+ 1. Add new customer
+ 2. View all rooms
+ 3. View available rooms
+ 4. Check-in  (allot a room)
+ 5. Check-out (generate bill)
+ 6. View current guests
+ 7. Search customer by name
+ 8. Booking history of a customer
+ 9. Revenue report (room-type wise)
+ 0. Exit
+===============================================
+Enter your choice : 0
+Thank you for using the Hotel Management System!

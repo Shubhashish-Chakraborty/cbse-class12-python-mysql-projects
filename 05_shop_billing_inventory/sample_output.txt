@@ -1,0 +1,276 @@
+
+======= STATIONERY SHOP - BILLING & INVENTORY =======
+  1. Add new product
+  2. View all products
+  3. Restock a product
+  4. Change price of a product
+  5. Low-stock alert
+  6. Create new bill
+  7. Reprint an old bill
+  8. Daily sales report
+  9. Top 3 best-selling products
+ 10. Delete a product
+  0. Exit
+=====================================================
+Enter your choice : 2
++----+-----------------------+-------------+-------+-------+
+| ID | Product               | Category    | Price | Stock |
++----+-----------------------+-------------+-------+-------+
+| 1  | Notebook (200 pages)  | Stationery  | 60    | 45    |
+| 2  | Ball Pen (Blue)       | Stationery  | 10    | 190   |
+| 3  | Pencil Box            | Stationery  | 120   | 14    |
+| 4  | Geometry Box          | Stationery  | 150   | 19    |
+| 5  | Scientific Calculator | Electronics | 650   | 7     |
+| 6  | Highlighter Set       | Stationery  | 90    | 12    |
+| 7  | Graph Book            | Stationery  | 45    | 36    |
+| 8  | Drawing File          | Stationery  | 70    | 6     |
+| 9  | Eraser                | Stationery  | 5     | 100   |
+| 10 | Marker Pen            | Stationery  | 25    | 30    |
++----+-----------------------+-------------+-------+-------+
+
+======= STATIONERY SHOP - BILLING & INVENTORY =======
+  1. Add new product
+  2. View all products
+  3. Restock a product
+  4. Change price of a product
+  5. Low-stock alert
+  6. Create new bill
+  7. Reprint an old bill
+  8. Daily sales report
+  9. Top 3 best-selling products
+ 10. Delete a product
+  0. Exit
+=====================================================
+Enter your choice : 5
+Products with stock below 10 : (order these soon!)
++----+-----------------------+-------+
+| ID | Product               | Stock |
++----+-----------------------+-------+
+| 8  | Drawing File          | 6     |
+| 5  | Scientific Calculator | 7     |
++----+-----------------------+-------+
+
+======= STATIONERY SHOP - BILLING & INVENTORY =======
+  1. Add new product
+  2. View all products
+  3. Restock a product
+  4. Change price of a product
+  5. Low-stock alert
+  6. Create new bill
+  7. Reprint an old bill
+  8. Daily sales report
+  9. Top 3 best-selling products
+ 10. Delete a product
+  0. Exit
+=====================================================
+Enter your choice : 1
+Product ID   : 11
+Product name : Sketch Pens (24 shades)
+Category     : Stationery
+Price (Rs.)  : 110
+Stock        : 25
+Product added successfully.
+
+======= STATIONERY SHOP - BILLING & INVENTORY =======
+  1. Add new product
+  2. View all products
+  3. Restock a product
+  4. Change price of a product
+  5. Low-stock alert
+  6. Create new bill
+  7. Reprint an old bill
+  8. Daily sales report
+  9. Top 3 best-selling products
+ 10. Delete a product
+  0. Exit
+=====================================================
+Enter your choice : 6
+Customer name : Meenal Arora
+Product ID (0 to finish) : 1
+  Quantity of Notebook (200 pages) : 3
+  Added. Running total = Rs. 180
+Product ID (0 to finish) : 2
+  Quantity of Ball Pen (Blue) : 10
+  Added. Running total = Rs. 280
+Product ID (0 to finish) : 8
+  Quantity of Drawing File : 2
+  Added. Running total = Rs. 420
+Product ID (0 to finish) : 99
+  Invalid product ID.
+Product ID (0 to finish) : 5
+  Quantity of Scientific Calculator : 10
+  Not possible. Only 7 in stock.
+Product ID (0 to finish) : 0
+
+============== STATIONERY SHOP ==============
+Bill No : 4           Date : 2026-10-31
+Customer: Meenal Arora
+---------------------------------------------
+Item                      Rate  Qty  Amount
+---------------------------------------------
+Notebook (200 pages)        60    3     180
+Ball Pen (Blue)             10   10     100
+Drawing File                70    2     140
+---------------------------------------------
+GRAND TOTAL                            Rs.420
+=============================================
+
+======= STATIONERY SHOP - BILLING & INVENTORY =======
+  1. Add new product
+  2. View all products
+  3. Restock a product
+  4. Change price of a product
+  5. Low-stock alert
+  6. Create new bill
+  7. Reprint an old bill
+  8. Daily sales report
+  9. Top 3 best-selling products
+ 10. Delete a product
+  0. Exit
+=====================================================
+Enter your choice : 7
+Enter bill number : 4
+
+============== STATIONERY SHOP ==============
+Bill No : 4           Date : 2026-10-31
+Customer: Meenal Arora
+---------------------------------------------
+Item                      Rate  Qty  Amount
+---------------------------------------------
+Notebook (200 pages)        60    3     180
+Ball Pen (Blue)             10   10     100
+Drawing File                70    2     140
+---------------------------------------------
+GRAND TOTAL                            Rs.420
+=============================================
+
+======= STATIONERY SHOP - BILLING & INVENTORY =======
+  1. Add new product
+  2. View all products
+  3. Restock a product
+  4. Change price of a product
+  5. Low-stock alert
+  6. Create new bill
+  7. Reprint an old bill
+  8. Daily sales report
+  9. Top 3 best-selling products
+ 10. Delete a product
+  0. Exit
+=====================================================
+Enter your choice : 8
++------------+-------+-------------+
+| Date       | Bills | Sales (Rs.) |
++------------+-------+-------------+
+| 2026-10-29 | 2     | 670         |
+| 2026-10-30 | 1     | 830         |
+| 2026-10-31 | 1     | 420         |
++------------+-------+-------------+
+
+======= STATIONERY SHOP - BILLING & INVENTORY =======
+  1. Add new product
+  2. View all products
+  3. Restock a product
+  4. Change price of a product
+  5. Low-stock alert
+  6. Create new bill
+  7. Reprint an old bill
+  8. Daily sales report
+  9. Top 3 best-selling products
+ 10. Delete a product
+  0. Exit
+=====================================================
+Enter your choice : 9
+Top 3 best-selling products (by quantity):
++----------------------+------------+---------------+
+| Product              | Units Sold | Revenue (Rs.) |
++----------------------+------------+---------------+
+| Ball Pen (Blue)      | 20         | 200           |
+| Notebook (200 pages) | 8          | 480           |
+| Graph Book           | 4          | 180           |
++----------------------+------------+---------------+
+
+======= STATIONERY SHOP - BILLING & INVENTORY =======
+  1. Add new product
+  2. View all products
+  3. Restock a product
+  4. Change price of a product
+  5. Low-stock alert
+  6. Create new bill
+  7. Reprint an old bill
+  8. Daily sales report
+  9. Top 3 best-selling products
+ 10. Delete a product
+  0. Exit
+=====================================================
+Enter your choice : 3
+Product ID : 5
+Quantity received : 20
+Stock updated.
+
+======= STATIONERY SHOP - BILLING & INVENTORY =======
+  1. Add new product
+  2. View all products
+  3. Restock a product
+  4. Change price of a product
+  5. Low-stock alert
+  6. Create new bill
+  7. Reprint an old bill
+  8. Daily sales report
+  9. Top 3 best-selling products
+ 10. Delete a product
+  0. Exit
+=====================================================
+Enter your choice : 4
+Product ID : 1
+New price (Rs.) : 65
+Price updated.
+
+======= STATIONERY SHOP - BILLING & INVENTORY =======
+  1. Add new product
+  2. View all products
+  3. Restock a product
+  4. Change price of a product
+  5. Low-stock alert
+  6. Create new bill
+  7. Reprint an old bill
+  8. Daily sales report
+  9. Top 3 best-selling products
+ 10. Delete a product
+  0. Exit
+=====================================================
+Enter your choice : 10
+Product ID to delete : 11
+Product deleted.
+
+======= STATIONERY SHOP - BILLING & INVENTORY =======
+  1. Add new product
+  2. View all products
+  3. Restock a product
+  4. Change price of a product
+  5. Low-stock alert
+  6. Create new bill
+  7. Reprint an old bill
+  8. Daily sales report
+  9. Top 3 best-selling products
+ 10. Delete a product
+  0. Exit
+=====================================================
+Enter your choice : 10
+Product ID to delete : 1
+Cannot delete: this product appears in old bills.
+
+======= STATIONERY SHOP - BILLING & INVENTORY =======
+  1. Add new product
+  2. View all products
+  3. Restock a product
+  4. Change price of a product
+  5. Low-stock alert
+  6. Create new bill
+  7. Reprint an old bill
+  8. Daily sales report
+  9. Top 3 best-selling products
+ 10. Delete a product
+  0. Exit
+=====================================================
+Enter your choice : 0
+Thank you! Visit again.

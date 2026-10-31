@@ -1,0 +1,232 @@
+
+========== BANK MANAGEMENT SYSTEM ==========
+ 1. Open a new account
+ 2. Deposit money
+ 3. Withdraw money
+ 4. Transfer money
+ 5. Balance enquiry
+ 6. Mini statement (last 5 transactions)
+ 7. Bank summary (account-type wise)
+ 8. Close an account
+ 0. Exit
+============================================
+Enter your choice : 1
+Account holder name        : Tanvi Rathore
+Account type (S-Savings / C-Current) : S
+Set a 4-digit PIN          : 7777
+Opening deposit (min Rs.500) : 2000
+Account opened successfully! Your account number is 1006
+
+========== BANK MANAGEMENT SYSTEM ==========
+ 1. Open a new account
+ 2. Deposit money
+ 3. Withdraw money
+ 4. Transfer money
+ 5. Balance enquiry
+ 6. Mini statement (last 5 transactions)
+ 7. Bank summary (account-type wise)
+ 8. Close an account
+ 0. Exit
+============================================
+Enter your choice : 2
+Account number : 1006
+PIN            : 7777
+Amount to deposit : 1500
+Rs. 1500 deposited successfully.
+
+========== BANK MANAGEMENT SYSTEM ==========
+ 1. Open a new account
+ 2. Deposit money
+ 3. Withdraw money
+ 4. Transfer money
+ 5. Balance enquiry
+ 6. Mini statement (last 5 transactions)
+ 7. Bank summary (account-type wise)
+ 8. Close an account
+ 0. Exit
+============================================
+Enter your choice : 3
+Account number : 1006
+PIN            : 7777
+Amount to withdraw : 1200
+Please collect your cash: Rs. 1200
+
+========== BANK MANAGEMENT SYSTEM ==========
+ 1. Open a new account
+ 2. Deposit money
+ 3. Withdraw money
+ 4. Transfer money
+ 5. Balance enquiry
+ 6. Mini statement (last 5 transactions)
+ 7. Bank summary (account-type wise)
+ 8. Close an account
+ 0. Exit
+============================================
+Enter your choice : 3
+Account number : 1006
+PIN            : 7777
+Amount to withdraw : 2000
+Insufficient balance! Minimum balance of Rs. 500 must be maintained.
+
+========== BANK MANAGEMENT SYSTEM ==========
+ 1. Open a new account
+ 2. Deposit money
+ 3. Withdraw money
+ 4. Transfer money
+ 5. Balance enquiry
+ 6. Mini statement (last 5 transactions)
+ 7. Bank summary (account-type wise)
+ 8. Close an account
+ 0. Exit
+============================================
+Enter your choice : 2
+Account number : 1006
+PIN            : 0000
+Wrong account number or PIN.
+
+========== BANK MANAGEMENT SYSTEM ==========
+ 1. Open a new account
+ 2. Deposit money
+ 3. Withdraw money
+ 4. Transfer money
+ 5. Balance enquiry
+ 6. Mini statement (last 5 transactions)
+ 7. Bank summary (account-type wise)
+ 8. Close an account
+ 0. Exit
+============================================
+Enter your choice : 4
+Your account number : 1001
+PIN                 : 1234
+Receiver account no.  : 1006
+Amount to transfer   : 5000
+Rs. 5000 transferred to Tanvi Rathore successfully.
+
+========== BANK MANAGEMENT SYSTEM ==========
+ 1. Open a new account
+ 2. Deposit money
+ 3. Withdraw money
+ 4. Transfer money
+ 5. Balance enquiry
+ 6. Mini statement (last 5 transactions)
+ 7. Bank summary (account-type wise)
+ 8. Close an account
+ 0. Exit
+============================================
+Enter your choice : 6
+Account number : 1006
+PIN            : 7777
+Last 5 transactions of account 1006
++--------+-------------+--------+---------------------+
+| Txn ID | Type        | Amount | Date & Time         |
++--------+-------------+--------+---------------------+
+| 5      | Transfer In | 5000   | 2026-10-31 07:43:36 |
+| 3      | Withdraw    | 1200   | 2026-10-31 07:43:36 |
+| 2      | Deposit     | 1500   | 2026-10-31 07:43:36 |
+| 1      | Opening     | 2000   | 2026-10-31 07:43:36 |
++--------+-------------+--------+---------------------+
+
+========== BANK MANAGEMENT SYSTEM ==========
+ 1. Open a new account
+ 2. Deposit money
+ 3. Withdraw money
+ 4. Transfer money
+ 5. Balance enquiry
+ 6. Mini statement (last 5 transactions)
+ 7. Bank summary (account-type wise)
+ 8. Close an account
+ 0. Exit
+============================================
+Enter your choice : 5
+Account number : 1001
+PIN            : 1234
+Account holder : Rahul Gupta
+Available balance : Rs. 10000
+
+========== BANK MANAGEMENT SYSTEM ==========
+ 1. Open a new account
+ 2. Deposit money
+ 3. Withdraw money
+ 4. Transfer money
+ 5. Balance enquiry
+ 6. Mini statement (last 5 transactions)
+ 7. Bank summary (account-type wise)
+ 8. Close an account
+ 0. Exit
+============================================
+Enter your choice : 7
++--------------+----------+---------------+-----------------+
+| Account Type | Accounts | Total Balance | Highest Balance |
++--------------+----------+---------------+-----------------+
+| Current      | 2        | 79500         | 52000           |
+| Savings      | 4        | 28800         | 10000           |
++--------------+----------+---------------+-----------------+
+Total money held by the bank : Rs. 108300
+
+========== BANK MANAGEMENT SYSTEM ==========
+ 1. Open a new account
+ 2. Deposit money
+ 3. Withdraw money
+ 4. Transfer money
+ 5. Balance enquiry
+ 6. Mini statement (last 5 transactions)
+ 7. Bank summary (account-type wise)
+ 8. Close an account
+ 0. Exit
+============================================
+Enter your choice : 8
+Account number : 1004
+PIN            : 2222
+Close account of Meera Nair with balance Rs.3000? (y/n) : n
+Account closing cancelled.
+
+========== BANK MANAGEMENT SYSTEM ==========
+ 1. Open a new account
+ 2. Deposit money
+ 3. Withdraw money
+ 4. Transfer money
+ 5. Balance enquiry
+ 6. Mini statement (last 5 transactions)
+ 7. Bank summary (account-type wise)
+ 8. Close an account
+ 0. Exit
+============================================
+Enter your choice : 8
+Account number : 1004
+PIN            : 2222
+Close account of Meera Nair with balance Rs.3000? (y/n) : y
+Account closed. Please collect Rs. 3000
+
+========== BANK MANAGEMENT SYSTEM ==========
+ 1. Open a new account
+ 2. Deposit money
+ 3. Withdraw money
+ 4. Transfer money
+ 5. Balance enquiry
+ 6. Mini statement (last 5 transactions)
+ 7. Bank summary (account-type wise)
+ 8. Close an account
+ 0. Exit
+============================================
+Enter your choice : 7
++--------------+----------+---------------+-----------------+
+| Account Type | Accounts | Total Balance | Highest Balance |
++--------------+----------+---------------+-----------------+
+| Current      | 2        | 79500         | 52000           |
+| Savings      | 3        | 25800         | 10000           |
++--------------+----------+---------------+-----------------+
+Total money held by the bank : Rs. 105300
+
+========== BANK MANAGEMENT SYSTEM ==========
+ 1. Open a new account
+ 2. Deposit money
+ 3. Withdraw money
+ 4. Transfer money
+ 5. Balance enquiry
+ 6. Mini statement (last 5 transactions)
+ 7. Bank summary (account-type wise)
+ 8. Close an account
+ 0. Exit
+============================================
+Enter your choice : 0
+Thank you for banking with us!

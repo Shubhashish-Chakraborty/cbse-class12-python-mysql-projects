@@ -1,0 +1,263 @@
+
+======= EMPLOYEE PAYROLL MANAGEMENT SYSTEM =======
+  1. Add new employee
+  2. View all employees
+  3. Search employee (name / designation)
+  4. Generate salary slip
+  5. Give increment to one employee
+  6. Give increment to a whole department
+  7. Department-wise summary
+  8. Highest and lowest paid employee
+  9. Total monthly payroll
+ 10. Remove an employee
+  0. Exit
+==================================================
+Enter your choice : 1
+Employee ID          : 1011
+Name                 : Nisha Bhatt
++---------+----------------+
+| Dept ID | Department     |
++---------+----------------+
+| 10      | Administration |
+| 20      | Accounts       |
+| 30      | IT             |
+| 40      | Sales          |
+| 50      | Research       |
++---------+----------------+
+Department ID       : 50
+Designation          : Scientist
+Basic salary (Rs.)   : 45000
+Joining date (YYYY-MM-DD): 2026-10-01
+Employee added successfully.
+
+======= EMPLOYEE PAYROLL MANAGEMENT SYSTEM =======
+  1. Add new employee
+  2. View all employees
+  3. Search employee (name / designation)
+  4. Generate salary slip
+  5. Give increment to one employee
+  6. Give increment to a whole department
+  7. Department-wise summary
+  8. Highest and lowest paid employee
+  9. Total monthly payroll
+ 10. Remove an employee
+  0. Exit
+==================================================
+Enter your choice : 2
++--------+----------------+----------------+-----------------+-------------+
+| Emp ID | Name           | Department     | Designation     | Basic (Rs.) |
++--------+----------------+----------------+-----------------+-------------+
+| 1001   | Suresh Rao     | Administration | Manager         | 60000       |
+| 1002   | Kavita Joshi   | Accounts       | Accountant      | 38000       |
+| 1003   | Manoj Tiwari   | IT             | Developer       | 52000       |
+| 1004   | Pooja Nair     | IT             | Developer       | 48000       |
+| 1005   | Deepak Yadav   | Sales          | Sales Executive | 28000       |
+| 1006   | Farhan Qureshi | Sales          | Sales Executive | 30000       |
+| 1007   | Ritu Malhotra  | Administration | Clerk           | 22000       |
+| 1008   | Anil Kumar     | Accounts       | Clerk           | 21000       |
+| 1009   | Sneha Kulkarni | IT             | Team Lead       | 70000       |
+| 1010   | Vivek Chauhan  | Sales          | Sales Manager   | 55000       |
+| 1011   | Nisha Bhatt    | Research       | Scientist       | 45000       |
++--------+----------------+----------------+-----------------+-------------+
+
+======= EMPLOYEE PAYROLL MANAGEMENT SYSTEM =======
+  1. Add new employee
+  2. View all employees
+  3. Search employee (name / designation)
+  4. Generate salary slip
+  5. Give increment to one employee
+  6. Give increment to a whole department
+  7. Department-wise summary
+  8. Highest and lowest paid employee
+  9. Total monthly payroll
+ 10. Remove an employee
+  0. Exit
+==================================================
+Enter your choice : 3
+Search by name or designation : developer
++--------+--------------+------------+-------------+-------------+
+| Emp ID | Name         | Department | Designation | Basic (Rs.) |
++--------+--------------+------------+-------------+-------------+
+| 1003   | Manoj Tiwari | IT         | Developer   | 52000       |
+| 1004   | Pooja Nair   | IT         | Developer   | 48000       |
++--------+--------------+------------+-------------+-------------+
+
+======= EMPLOYEE PAYROLL MANAGEMENT SYSTEM =======
+  1. Add new employee
+  2. View all employees
+  3. Search employee (name / designation)
+  4. Generate salary slip
+  5. Give increment to one employee
+  6. Give increment to a whole department
+  7. Department-wise summary
+  8. Highest and lowest paid employee
+  9. Total monthly payroll
+ 10. Remove an employee
+  0. Exit
+==================================================
+Enter your choice : 4
+Employee ID : 1009
+
+=========== SALARY SLIP ===========
+Emp ID      : 1009
+Name        : Sneha Kulkarni
+Department  : IT - Team Lead
+-----------------------------------
+Basic Salary      :   70000.00
+DA  (20%)         :   14000.00
+HRA (15%)         :   10500.00
+Gross Salary      :   94500.00
+PF  (12%) [-]     :    8400.00
+-----------------------------------
+NET SALARY        :   86100.00
+===================================
+
+======= EMPLOYEE PAYROLL MANAGEMENT SYSTEM =======
+  1. Add new employee
+  2. View all employees
+  3. Search employee (name / designation)
+  4. Generate salary slip
+  5. Give increment to one employee
+  6. Give increment to a whole department
+  7. Department-wise summary
+  8. Highest and lowest paid employee
+  9. Total monthly payroll
+ 10. Remove an employee
+  0. Exit
+==================================================
+Enter your choice : 5
+Employee ID : 1004
+Increment percentage : 10
+Increment given. New basic salary of Pooja Nair = Rs. 52800
+
+======= EMPLOYEE PAYROLL MANAGEMENT SYSTEM =======
+  1. Add new employee
+  2. View all employees
+  3. Search employee (name / designation)
+  4. Generate salary slip
+  5. Give increment to one employee
+  6. Give increment to a whole department
+  7. Department-wise summary
+  8. Highest and lowest paid employee
+  9. Total monthly payroll
+ 10. Remove an employee
+  0. Exit
+==================================================
+Enter your choice : 6
+Department ID : 40
+Increment percentage : 5
+3 employee(s) received the increment.
+
+======= EMPLOYEE PAYROLL MANAGEMENT SYSTEM =======
+  1. Add new employee
+  2. View all employees
+  3. Search employee (name / designation)
+  4. Generate salary slip
+  5. Give increment to one employee
+  6. Give increment to a whole department
+  7. Department-wise summary
+  8. Highest and lowest paid employee
+  9. Total monthly payroll
+ 10. Remove an employee
+  0. Exit
+==================================================
+Enter your choice : 7
+Show departments having at least how many employees? (0 for all) : 0
++----------------+----------+-----------+-------------+-----------+---------------+
+| Department     | Location | Employees | Total Basic | Avg Basic | Highest Basic |
++----------------+----------+-----------+-------------+-----------+---------------+
+| Accounts       | Indore   | 2         | 59000       | 29500     | 38000         |
+| Administration | Bhopal   | 2         | 82000       | 41000     | 60000         |
+| IT             | Pune     | 3         | 174800      | 58267     | 70000         |
+| Research       | Delhi    | 1         | 45000       | 45000     | 45000         |
+| Sales          | Mumbai   | 3         | 118650      | 39550     | 57750         |
++----------------+----------+-----------+-------------+-----------+---------------+
+
+======= EMPLOYEE PAYROLL MANAGEMENT SYSTEM =======
+  1. Add new employee
+  2. View all employees
+  3. Search employee (name / designation)
+  4. Generate salary slip
+  5. Give increment to one employee
+  6. Give increment to a whole department
+  7. Department-wise summary
+  8. Highest and lowest paid employee
+  9. Total monthly payroll
+ 10. Remove an employee
+  0. Exit
+==================================================
+Enter your choice : 7
+Show departments having at least how many employees? (0 for all) : 3
++------------+----------+-----------+-------------+-----------+---------------+
+| Department | Location | Employees | Total Basic | Avg Basic | Highest Basic |
++------------+----------+-----------+-------------+-----------+---------------+
+| IT         | Pune     | 3         | 174800      | 58267     | 70000         |
+| Sales      | Mumbai   | 3         | 118650      | 39550     | 57750         |
++------------+----------+-----------+-------------+-----------+---------------+
+
+======= EMPLOYEE PAYROLL MANAGEMENT SYSTEM =======
+  1. Add new employee
+  2. View all employees
+  3. Search employee (name / designation)
+  4. Generate salary slip
+  5. Give increment to one employee
+  6. Give increment to a whole department
+  7. Department-wise summary
+  8. Highest and lowest paid employee
+  9. Total monthly payroll
+ 10. Remove an employee
+  0. Exit
+==================================================
+Enter your choice : 8
+Highest paid : Sneha Kulkarni (Team Lead) - Rs. 70000
+Lowest paid  : Anil Kumar (Clerk) - Rs. 21000
+
+======= EMPLOYEE PAYROLL MANAGEMENT SYSTEM =======
+  1. Add new employee
+  2. View all employees
+  3. Search employee (name / designation)
+  4. Generate salary slip
+  5. Give increment to one employee
+  6. Give increment to a whole department
+  7. Department-wise summary
+  8. Highest and lowest paid employee
+  9. Total monthly payroll
+ 10. Remove an employee
+  0. Exit
+==================================================
+Enter your choice : 9
+Total basic salary of all employees  : Rs. 479450.00
+Total net salary to be paid this month: Rs. 589723.50
+
+======= EMPLOYEE PAYROLL MANAGEMENT SYSTEM =======
+  1. Add new employee
+  2. View all employees
+  3. Search employee (name / designation)
+  4. Generate salary slip
+  5. Give increment to one employee
+  6. Give increment to a whole department
+  7. Department-wise summary
+  8. Highest and lowest paid employee
+  9. Total monthly payroll
+ 10. Remove an employee
+  0. Exit
+==================================================
+Enter your choice : 10
+Employee ID to remove : 1011
+Employee record removed.
+
+======= EMPLOYEE PAYROLL MANAGEMENT SYSTEM =======
+  1. Add new employee
+  2. View all employees
+  3. Search employee (name / designation)
+  4. Generate salary slip
+  5. Give increment to one employee
+  6. Give increment to a whole department
+  7. Department-wise summary
+  8. Highest and lowest paid employee
+  9. Total monthly payroll
+ 10. Remove an employee
+  0. Exit
+==================================================
+Enter your choice : 0
+Thank you for using the Payroll System!
